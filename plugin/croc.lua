@@ -1,1 +1,1 @@
-echo "croc neovim is running..."
+print "croc neovim is running..."
