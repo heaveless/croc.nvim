@@ -4,7 +4,7 @@ local M = {}
 function M.setup(config)
   api.nvim_create_user_command(
     "CrocSend", function(args)
-      print ("config CrocSend command: " .. args)
+      print ("config CrocSend command: " .. tostring(args))
     end,
     {
       range = true,
@@ -18,7 +18,7 @@ function M.setup(config)
 
   api.nvim_create_user_command(
     "CrocGet", function(args)
-      print ("config CrocGet command: " .. args)
+      print ("config CrocGet command: " .. tostring(args))
     end,
     {
       range = true,
